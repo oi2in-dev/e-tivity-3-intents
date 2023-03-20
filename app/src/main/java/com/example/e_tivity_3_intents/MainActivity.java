@@ -1,8 +1,11 @@
+// Oisin O'Sullivan
+// Id 21304971
+
+
 package com.example.e_tivity_3_intents;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
-
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
 import android.app.PendingIntent;
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Decided to use lamda here to demonstate an extra use of on click listener.
         btn3.setOnClickListener(v -> {
 
             Toast.makeText(this, "ping sent", Toast.LENGTH_SHORT).show();
@@ -93,6 +97,8 @@ public class MainActivity extends AppCompatActivity {
         NManager.getAdmin().notify(2, nb.build());
 
     }
+
+
 
     private void createnotifchannel() {
 
