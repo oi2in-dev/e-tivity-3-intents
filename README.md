@@ -1,6 +1,6 @@
 # e-tivity-3-intents
 
-This is mtE-Tivity 3 for ED5042
+This is my E-Tivity 3 for ED5042
 
 this app shows the use of using 3 differnt channels.
 
